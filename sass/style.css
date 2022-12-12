@@ -1,0 +1,243 @@
+.width-80 {
+  width: 80%;
+}
+
+.width-85 {
+  width: 85%;
+}
+
+.width-90 {
+  width: 90%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.head-part {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+}
+.head-part .ortalama {
+  width: 85%;
+}
+.head-part .head-left-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.head-part .head-left-part a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  transition: 0.1s;
+}
+.head-part .head-left-part a:nth-child(1) {
+  font-size: 16px;
+}
+.head-part .head-left-part a:hover {
+  color: rgb(8, 187, 47);
+}
+.head-part .head-right-part {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.head-part .head-right-part a {
+  background-color: rgb(221, 12, 12);
+  padding: 2px 14px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+}
+.head-part .head-right-part img {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  .head-part .ortalama {
+    width: 100%;
+  }
+  .head-part .head-right-part {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+}
+.house {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  background-image: url("../img/home1.png");
+  background-size: cover;
+  background-blend-mode: hard-light;
+  background-color: rgba(26, 25, 25, 0.712);
+  background-position: center;
+}
+.house .text-part {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  justify-content: space-around;
+}
+.house .text-part h2 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.house .text-part input {
+  width: 100%;
+}
+
+.featured-sales {
+  display: flex;
+  justify-content: center;
+}
+.featured-sales .top-part .buton {
+  display: flex;
+  justify-content: end;
+}
+.featured-sales .top-part .buton button {
+  width: 20%;
+  border: 1px solid gray;
+}
+.featured-sales .cards-part .mycard {
+  border-radius: 0px;
+  padding: 10px;
+}
+.featured-sales .cards-part .mycard p {
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 2px;
+}
+.featured-sales .cards-part .mycard .card-body {
+  padding: 8px 0px 0px 0px;
+}
+.featured-sales .cards-part .mycard .images-part {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.map {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.map .myborder {
+  border: 1px solid rgb(221, 221, 221);
+}
+.map .cevir {
+  display: flex;
+}
+.map .top-part {
+  margin-bottom: 20px;
+}
+.map .top-part .buton {
+  display: flex;
+  justify-content: end;
+}
+.map .top-part .buton button {
+  width: 20%;
+  border: 1px solid gray;
+}
+.map .image-part {
+  display: flex;
+  justify-content: flex-end !important;
+  padding-right: 0px;
+}
+.map .text-part {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.map .text-part p {
+  color: rgb(117, 116, 116);
+}
+.map .searching1 {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+.map .searching1 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 5vh;
+  border-radius: 5px;
+  background: rgb(247, 56, 56);
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+.map .searching1 a:hover {
+  background-color: red;
+}
+.map .searching2 {
+  height: 20vh;
+  display: flex;
+  align-items: end;
+}
+.map .searching2 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 5vh;
+  border-radius: 5px;
+  border: 1px solid rgb(250, 47, 47);
+  background: white;
+  text-decoration: none;
+  color: rgb(250, 47, 47);
+  transition: 0.2s;
+}
+.map .searching2 a:hover {
+  background-color: rgb(250, 47, 47);
+  color: white;
+}
+
+@media only screen and (max-width: 960px) {
+  .map .cevir {
+    flex-direction: column-reverse;
+  }
+}
+.foot-links {
+  margin-top: 25px;
+  display: flex;
+  background-color: rgb(15, 36, 63);
+  justify-content: center;
+  padding-top: 25px;
+}
+.foot-links .row {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-links ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.foot-links ul li {
+  color: white;
+  font-size: 16px;
+  padding-left: 0px;
+}
+.foot-links ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(180, 177, 170);
+  transition: 0.15s;
+}
+.foot-links ul li a:hover {
+  color: rgb(187, 236, 236);
+}/*# sourceMappingURL=style.css.map */

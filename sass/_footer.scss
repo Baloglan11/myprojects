@@ -1,0 +1,32 @@
+.foot-links{
+    margin-top: 25px;
+    display: flex;
+    background-color: rgb(15, 36, 63);
+    justify-content: center;
+    padding-top: 25px;
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding-left: 0px;
+        li{
+            color:white;
+            font-size: 16px;
+            padding-left: 0px;
+            // margin-bottom: -5px;
+            a{
+                font-size: 14px;
+                text-decoration: none;
+                color:rgb(180, 177, 170);
+                transition: 0.15s;
+                &:hover{
+                    color:rgb(187, 236, 236)
+                }
+            }
+        }
+    }
+}

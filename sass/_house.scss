@@ -1,0 +1,30 @@
+.house{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-image:url('../img/home1.png');
+    background-size: cover;
+    background-blend-mode:hard-light;
+    // background-color: rgba(26, 25, 25, 0.308);
+    background-color: rgba(26, 25, 25, 0.712);
+    background-position: center;
+    // background-color: rgba(20, 202, 29, 0.767);
+    .text-part{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        height: 25vh;
+        justify-content: space-around;
+        h2{
+            text-align: center;
+            color:white;
+            font-size: 40px;
+        }
+        input{
+            // width: 300px !important;
+            width:100% ;
+        }
+    }
+    
+}

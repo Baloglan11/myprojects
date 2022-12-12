@@ -1,0 +1,103 @@
+.map{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    .myborder{
+    border: 1px solid rgb(221, 221, 221);
+        // padding: 10px;
+    }
+    .cevir{
+        // background-color: aqua;
+        display: flex;
+        // padding-right: 0px;
+        // justify-content: space-between;
+        // flex-direction: row-reverse;
+        // .col{
+        //     padding-right: 0px;
+        // }
+    }
+    .top-part{
+        margin-bottom: 20px;
+        .buton{
+            display: flex;
+            justify-content: end;
+            button{
+                width: 20%;
+                border: 1px solid gray;
+                // background-color: white;
+            }
+        }
+    }
+    .image-part{
+        display: flex;
+        justify-content: flex-end !important;
+        padding-right: 0px;
+    }
+    .text-part{
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        // align-items: center;
+        p{
+            color:rgb(117, 116, 116);
+        }
+        
+    }
+    .searching1{
+        height: 20vh;
+        // background: aqua;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 5vh;
+            border-radius: 5px;
+            background: rgb(247, 56, 56);
+            text-decoration: none;
+            color:white;
+            transition: 0.2s;
+            &:hover{
+                background-color: red;
+            }
+        }
+    }
+    .searching2{
+        height: 20vh;
+        // background: aqua;
+        display: flex;
+        // justify-content: center;
+        align-items: end;
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 5vh;
+            border-radius: 5px;
+            border: 1px solid rgb(250, 47, 47);
+            background: white;
+            text-decoration: none;
+            color:rgb(250, 47, 47);
+            transition:0.2s;
+            &:hover{
+                background-color:rgb(250, 47, 47) ;
+                color:white;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (max-width: 960px) {
+    .map{
+        .cevir{
+            flex-direction: column-reverse;
+        }
+    }
+
+}
