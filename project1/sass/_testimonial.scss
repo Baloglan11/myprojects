@@ -1,0 +1,114 @@
+.testimonial{
+    padding: 100px 0px;
+    .top-left-part{
+        h3{
+            color:#FF7425;
+            font-family: 'Poppins';
+            font-size: 20px;
+        }
+        h2{
+            font-size: 48px;
+            color:#19082D;
+        }
+    }
+    .top-right-part{
+        // height: 20vh;
+        // background-color: blue;
+        i{
+            cursor: pointer;
+            width:80px;
+            height:7vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+
+            padding-right: 40px;
+            font-size: 30px;
+            color:rgb(58, 58, 58);
+            // color:red;
+            transition: background-color 0.5s,  color 0.3s;
+            // &:nth-child(2){
+            //     padding-right: 10px;
+            //     // color:blue;
+            // }
+            &:hover{
+                     
+                // padding: 20px;
+                background-color: #6722b5;
+                color:white;
+
+            }
+
+        }
+ 
+    }
+
+    .media-logo-part{
+        margin-top: 60px;
+
+    }
+    .logo-part{
+        margin-top: 60px;
+        a{
+            img{
+                transition: 1s;
+            }
+            &:hover{
+                img{
+                    transform: translateY(150deg);
+                }
+            }
+        }
+    }
+}
+    .mycard-user{
+        padding: 30px;
+        box-shadow: 0px 10px 25px 0px rgb(103 34 181 /25%) !important;
+        border: none;
+        border-bottom-left-radius:30px;
+        border-bottom-left-radius:30px;
+        // background-color: aqua;
+        // &:hover{
+        //     box-shadow: 35px 25px 60px 0px rgb(103 34 181 / 40%) !important;
+        // }
+        .image-part{
+            margin-left:16px;
+            .gizli-image{
+                display: none;
+            }
+            &:hover{
+                .gorsenen-image{
+                    display: none;
+                }
+                .gizli-image{
+                    display: block;
+                }
+            }
+        }
+        .niye{
+            margin-top: 15px;
+            margin-bottom: 20px;
+            color:#3E3E3E;
+            font-family: 'Poppins';
+            width: 90%;
+            font-size: 18px;
+        }
+        .bottom-part{
+            // background-color: aqua !important;
+            .text{
+                h4{
+                    color:#372748;
+                    font-size: 18px;
+                    margin-left: 15px;
+                }
+                p{
+                    color:#3E3E3EB5;
+                    font-family: 'Poppins';
+                    margin-left: 15px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
