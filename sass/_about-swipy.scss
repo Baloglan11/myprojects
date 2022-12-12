@@ -1,0 +1,40 @@
+.about-swipy{
+    h3{
+        color:#6722b5;
+        font-size: 18px;
+    }
+    h1{
+        color: #19082D;
+        font-size: 44px;
+        font-weight: 700;
+    }
+    p{
+        margin-top: 30px;
+        color: #3E3E3E;
+        // color: red;
+        font-size: 18px;
+        
+    }
+    .numbers{
+        h2{
+            color:#FF7425;
+            font-size: 40px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            // font-family: "Poppins";
+        }
+        p{
+            margin-top: 0px;
+        }
+    }
+    button{
+        margin-top: 10px;
+        padding: 20px 30px;
+        width: 180px;
+        background-color: #6722b5d9;
+        color:white;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+    }
+}
